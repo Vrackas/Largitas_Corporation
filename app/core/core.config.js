@@ -23,78 +23,73 @@
                 controller: 'HomepageController',
                 controllerAs: 'vm',
             })
-            .state('about_us', {
-                url: '/about_us',
-                templateUrl: 'templates/about_us/about_us.html',
-                controller: 'AboutUsController',
+            .state('trader_room', {
+                url: '/trader_room',
+                templateUrl: 'templates/trader_room/trader_room.html',
+                controller: 'TraderRoomController',
                 controllerAs: 'vm',
             })
-            .state('company', {
-                url: '/company',
-                templateUrl: 'templates/company/company.html',
-                controller: 'CompanyController',
+            .state('crm_system', {
+                url: '/crm_system',
+                templateUrl: 'templates/crm_system/crm_system.html',
+                controller: 'CRMSystemController',
                 controllerAs: 'vm',
             })
-            .state('banks', {
-                url: '/banks',
-                templateUrl: 'templates/banks/banks.html',
-                controller: 'BanksController',
+            .state('multi_ibs', {
+                url: '/multi_ibs',
+                templateUrl: 'templates/multi_ibs/multi_ibs.html',
+                controller: 'MultiIBsController',
                 controllerAs: 'vm',
             })
-            .state('contacts', {
-                url: '/contacts',
-                templateUrl: 'templates/contacts/contacts.html',
-                controller: 'ContactsController',
+            .state('pamm_support', {
+                url: '/pamm_support',
+                templateUrl: 'templates/pamm_support/pamm_support.html',
+                controller: 'PammSupportController',
                 controllerAs: 'vm',
             })
-            .state('forex', {
-                url: '/forex',
-                templateUrl: 'templates/forex/forex.html',
-                controller: 'ForexController',
+            .state('mobile_solutions', {
+                url: '/mobile_solutions',
+                templateUrl: 'templates/mobile_solutions/mobile_solutions.html',
+                controller: 'MobileSolutionsController',
                 controllerAs: 'vm',
             })
-            .state('e-commerce', {
-                url: '/e-commerce',
-                templateUrl: 'templates/e-commerce/e-commerce.html',
-                controller: 'ECommerceController',
+            .state('merchant_accounts', {
+                url: '/merchant_accounts',
+                templateUrl: 'templates/merchant_accounts/merchant_accounts.html',
+                controller: 'MerchantAccountsController',
                 controllerAs: 'vm',
             })
-            .state('license', {
-                url: '/license',
-                templateUrl: 'templates/license/license.html',
-                controller: 'LicenseController',
+            .state('mt4_mac', {
+                url: '/mt4_mac',
+                templateUrl: 'templates/mt4_mac/mt4_mac.html',
+                controller: 'MT4MacController',
                 controllerAs: 'vm',
             })
-            .state('legal_opinion', {
-                url: '/legal_opinion',
-                templateUrl: 'templates/legal_opinion/legal_opinion.html',
-                controller: 'LegalOpinionController',
+            .state('forex_web', {
+                url: '/forex_web',
+                templateUrl: 'templates/forex_web/forex_web.html',
+                controller: 'ForexWebController',
                 controllerAs: 'vm',
             })
-            .state('condition', {
-                url: '/condition',
-                templateUrl: 'templates/condition/condition.html',
-                controller: 'ConditionController',
+            .state('bitcoin', {
+                url: '/bitcoin',
+                templateUrl: 'templates/bitcoin/bitcoin.html',
+                controller: 'BitcoinController',
                 controllerAs: 'vm',
             })
-            .state('policy', {
-                url: '/policy',
-                templateUrl: 'templates/policy/policy.html',
-                controller: 'PolicyController',
+            .state('live_webinars', {
+                url: '/live_webinars',
+                templateUrl: 'templates/live_webinars/live_webinars.html',
+                controller: 'LiveWebinarsController',
                 controllerAs: 'vm',
             })
-            .state('policy_company', {
-                url: '/policy_company',
-                templateUrl: 'templates/policy_company/policy_company.html',
-                controller: 'PolicyCompanyController',
+            .state('other_solutions', {
+                url: '/other_solutions',
+                templateUrl: 'templates/other_solutions/other_solutions.html',
+                controller: 'OtherSolutionsController',
                 controllerAs: 'vm',
             })
-            .state('kyc', {
-                url: '/kyc',
-                templateUrl: 'templates/kyc/kyc.html',
-                controller: 'KYCController',
-                controllerAs: 'vm',
-            })
+
 
 
     }

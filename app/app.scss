@@ -1,18 +1,18 @@
 
 //templates
 @import "templates/homepage/homepage";
-@import "templates/about_us/about_us";
-@import "templates/company/company";
-@import "templates/banks/banks";
-@import "templates/contacts/contacts";
-@import "templates/forex/forex";
-@import "templates/e-commerce/e-commerce";
-@import "templates/legal_opinion/legal_opinion";
-@import "templates/license/license";
-@import "templates/condition/condition";
-@import "templates/policy/policy";
-@import "templates/policy_company/policy_company";
-@import "templates/kyc/kyc";
+@import "templates/trader_room/trader_room";
+@import "templates/crm_system/crm_system";
+@import "templates/multi_ibs/multi_ibs";
+@import "templates/pamm_support/pamm_support";
+@import "templates/mobile_solutions/mobile_solutions";
+@import "templates/merchant_accounts/merchant_accounts";
+@import "templates/mt4_mac/mt4_mac";
+@import "templates/forex_web/forex_web";
+@import "templates/bitcoin/bitcoin";
+@import "templates/live_webinars/live_webinars";
+@import "templates/other_solutions/other_solutions";
+
 
 //directives
 @import "directives/header_block/header_block";
