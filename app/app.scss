@@ -1,0 +1,59 @@
+
+//templates
+@import "templates/homepage/homepage";
+@import "templates/about_us/about_us";
+@import "templates/company/company";
+@import "templates/banks/banks";
+@import "templates/contacts/contacts";
+@import "templates/forex/forex";
+@import "templates/e-commerce/e-commerce";
+@import "templates/legal_opinion/legal_opinion";
+@import "templates/license/license";
+@import "templates/condition/condition";
+@import "templates/policy/policy";
+@import "templates/policy_company/policy_company";
+@import "templates/kyc/kyc";
+
+//directives
+@import "directives/header_block/header_block";
+@import "directives/footer_block/footer_block";
+@import "directives/mobile_menu/mobile_menu";
+@import "directives/top_button/top_button";
+
+
+//componets
+body{
+  background: white;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.main-title {
+  color: #fff;
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  font-family: 'Relative Bold', Arial, sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.main-link {
+
+  text: {
+    decoration: none;
+    overflow: ellipsis;
+  }
+  font: {
+    weight: 400;
+    family: 'Relative Medium', Arial, sans-serif;
+    size: 25px;
+  }
+  border-bottom: 0px solid #ffffff;
+  color: #303030;
+  margin-left: -20px;
+  white-space: nowrap;
+  cursor: pointer;
+}
