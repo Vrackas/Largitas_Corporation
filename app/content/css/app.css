@@ -85,27 +85,28 @@
       position: absolute; }
       .homepage .content .content-container .content-container-background div {
         height: 100%;
-        width: 100%; }
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5); }
     .homepage .content .content-container .first-section {
-      background-color: #ff3750;
+      background-image: url("../img/trader_room.jpg");
       background-size: cover !important;
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-position: center; }
     .homepage .content .content-container .second-section {
-      background-color: #003e88;
+      background-image: url("../img/crm.jpg");
       background-size: cover !important;
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-position: center; }
     .homepage .content .content-container .third-section {
-      background-color: #37ff57;
+      background-image: url("../img/ibs.jpg");
       background-size: cover !important;
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-position: center; }
     .homepage .content .content-container .fourth-section {
-      background-color: #ff3750;
+      background-image: url("../img/pamm.jpg");
       background-size: cover !important;
       background-repeat: no-repeat;
       background-attachment: fixed;
@@ -116,32 +117,33 @@
       background-repeat: no-repeat;
       background-attachment: fixed; }
     .homepage .content .content-container .sixth-section {
-      background-color: #ffb637;
+      background-image: url("../img/merchant.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed; }
     .homepage .content .content-container .seventh-section {
-      background-color: #373fff;
+      background-image: url("../img/mt4.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed; }
     .homepage .content .content-container .eighth-section {
-      background-color: #3ee941;
+      background-image: url("../img/web.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed; }
     .homepage .content .content-container .ninth-section {
-      background-color: #ff3750;
+      background-image: url("../img/bitcoin.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed; }
     .homepage .content .content-container .tenth-section {
-      background-color: #ffb637;
+      background-image: url("../img/webinars.jpg");
       background-size: cover;
       background-repeat: no-repeat;
-      background-attachment: fixed; }
+      background-attachment: fixed;
+      background-position: center; }
     .homepage .content .content-container .eleventh-section {
-      background-color: #373fff;
+      background-image: url("../img/solutions.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed; }
@@ -168,7 +170,7 @@
           margin: auto;
           right: 0;
           text-align: center;
-          top: -20%;
+          top: 10%;
           width: 100%;
           position: fixed;
           z-index: 9999;
@@ -352,7 +354,7 @@
     padding-top: 270px; }
 
 .trader_room .content .background {
-  background-image: url("../img/about_us.jpg");
+  background-image: url("../img/trader_room.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; }
@@ -440,7 +442,7 @@
     padding-top: 270px; }
 
 .crm_system .content .background {
-  background-image: url("../img/about_us.jpg");
+  background-image: url("../img/crm.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; }
@@ -528,7 +530,7 @@
     padding-top: 270px; }
 
 .multi_ibs .content .background {
-  background-image: url("../img/about_us.jpg");
+  background-image: url("../img/ibs.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; }
@@ -615,7 +617,7 @@
     padding-top: 270px; }
 
 .pamm_support .content .background {
-  background-image: url("../img/about_us.jpg");
+  background-image: url("../img/pamm.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; }
@@ -702,7 +704,7 @@
     padding-top: 270px; }
 
 .merchant_accounts .content .background {
-  background-image: url("../img/about_us.jpg");
+  background-image: url("../img/merchant.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; }
@@ -790,7 +792,7 @@
     padding-top: 270px; }
 
 .mt4_mac .content .background {
-  background-image: url("../img/about_us.jpg");
+  background-image: url("../img/mt4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; }
@@ -878,7 +880,7 @@
     padding-top: 270px; }
 
 .forex_web .content .background {
-  background-image: url("../img/about_us.jpg");
+  background-image: url("../img/web.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; }
@@ -966,7 +968,7 @@
     padding-top: 270px; }
 
 .bitcoin .content .background {
-  background-image: url("../img/about_us.jpg");
+  background-image: url("../img/bitcoin.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; }
@@ -1053,7 +1055,7 @@
     padding-top: 270px; }
 
 .live_webinars .content .background {
-  background-image: url("../img/about_us.jpg");
+  background-image: url("../img/webinars.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; }
@@ -1141,7 +1143,7 @@
     padding-top: 150px; }
 
 .other_solutions .content .background {
-  background-image: url("../img/psp.jpg");
+  background-image: url("../img/solutions.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; }
@@ -1254,6 +1256,272 @@
       padding: 0; }
       .other_solutions .content .about div .panel p {
         width: 280px !important; } }
+
+.about_us {
+  margin: 0;
+  background: white;
+  box-sizing: inherit; }
+  .about_us .content .content-container {
+    height: 70vh;
+    width: 100%;
+    background: white; }
+  .about_us .content .head div#anchor {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    width: 415px; }
+    .about_us .content .head div#anchor h1 {
+      color: #303030;
+      position: absolute;
+      font-size: 90px;
+      font-weight: 600; }
+    .about_us .content .head div#anchor a {
+      text-decoration: none;
+      color: #303030;
+      font-size: 60px;
+      position: absolute;
+      padding-top: 200px; }
+  .about_us .content .background {
+    background-image: url("../img/about_us.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; }
+  .about_us .content .about {
+    height: auto; }
+    .about_us .content .about div {
+      margin-top: 140px; }
+      .about_us .content .about div p {
+        width: 1000px;
+        margin: 70px auto;
+        text-align: justify;
+        font-family: "Relative Bold", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        line-height: 30px; }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .about_us .content p {
+      width: 900px !important; } }
+  @media (min-width: 768px) and (max-width: 992px) {
+    .about_us .content p {
+      width: 730px !important; } }
+  @media (min-width: 540px) and (max-width: 768px) {
+    .about_us .content p {
+      width: 530px !important; } }
+  @media (max-width: 540px) {
+    .about_us .content .head #anchor {
+      top: 20% !important;
+      width: auto !important; }
+      .about_us .content .head #anchor h1 {
+        font-size: 50px !important; }
+    .about_us .content .background {
+      background-attachment: scroll !important; }
+    .about_us .content .about {
+      height: auto; }
+      .about_us .content .about p {
+        width: 320px !important; } }
+
+.contacts .content .content-container {
+  height: 70vh;
+  width: 100%;
+  background: white; }
+
+.contacts .content .head div#anchor {
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  width: 415px; }
+  .contacts .content .head div#anchor h1 {
+    color: #303030;
+    position: absolute;
+    font-size: 90px;
+    font-weight: 600; }
+  .contacts .content .head div#anchor a {
+    text-decoration: none;
+    color: #303030;
+    font-size: 60px;
+    position: absolute;
+    padding-top: 200px; }
+
+.contacts .content .background {
+  background-image: url("../img/contacts.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+.contacts .content .about {
+  height: 1000px; }
+  .contacts .content .about div {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    .contacts .content .about div div {
+      margin-top: 0px;
+      display: flex;
+      flex-direction: column; }
+      .contacts .content .about div div form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around; }
+        .contacts .content .about div div form div {
+          width: 800px;
+          dispaly: flex;
+          flex-direction: row;
+          flex-wrap: wrap; }
+        .contacts .content .about div div form input {
+          margin: 20px auto;
+          border: none;
+          border-bottom: 2px solid #303030;
+          width: 350px;
+          height: 40px;
+          padding: 7px;
+          font-size: 23px; }
+        .contacts .content .about div div form input:focus {
+          outline: none; }
+        .contacts .content .about div div form input.form_title {
+          margin: 20px 0 0;
+          border: 2px solid #303030;
+          border-radius: 5px;
+          border-bottom-left-radius: 0px;
+          border-bottom-right-radius: 0px;
+          padding: 7px 0 7px 14px; }
+        .contacts .content .about div div form input[type=submit] {
+          border: 2px solid #303030;
+          border-radius: 5px;
+          width: 418px;
+          color: #303030;
+          line-height: 10px;
+          height: 53px; }
+        .contacts .content .about div div form input[type=submit]:hover {
+          background: #ff3750;
+          border: 2px solid #ffffff;
+          color: #fff; }
+        .contacts .content .about div div form input[type=number]::-webkit-inner-spin-button,
+        .contacts .content .about div div form input[type=number]::-webkit-outer-spin-button {
+          -webkit-appearance: none;
+          margin: 0; }
+        .contacts .content .about div div form textarea {
+          width: 800px;
+          box-sizing: border-box;
+          outline: none;
+          resize: none;
+          border: 2px solid #303030;
+          border-radius: 5px;
+          padding: 10px 14px;
+          font-size: 23px; }
+        .contacts .content .about div div form textarea::placeholder, .contacts .content .about div div form input::placeholder {
+          vertical-align: center; }
+      .contacts .content .about div div p, .contacts .content .about div div h6, .contacts .content .about div div a {
+        display: block;
+        text-align: center;
+        font-family: "Relative Bold", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        line-height: 30px;
+        text-decoration: none;
+        color: #303030; }
+      .contacts .content .about div div p {
+        line-height: 25px;
+        margin-bottom: 0px; }
+      .contacts .content .about div div a {
+        line-height: 1px;
+        margin-bottom: 40px;
+        font-size: 25px;
+        font-weight: 600;
+        color: #ff3750; }
+      .contacts .content .about div div a:hover {
+        text-decoration: underline; }
+    .contacts .content .about div div:last-child {
+      flex-direction: row;
+      height: 200px;
+      align-self: center;
+      margin-bottom: 50px; }
+      .contacts .content .about div div:last-child div:first-child {
+        width: 60px;
+        justify-content: flex-start; }
+        .contacts .content .about div div:last-child div:first-child img {
+          margin-top: 25px;
+          width: 50px; }
+      .contacts .content .about div div:last-child div:last-child {
+        flex-direction: column;
+        justify-content: flex-start; }
+        .contacts .content .about div div:last-child div:last-child p, .contacts .content .about div div:last-child div:last-child a {
+          text-align: justify; }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .contacts .content .about div div form div {
+    width: 700px !important; }
+    .contacts .content .about div div form div input {
+      width: 300px !important; }
+  .contacts .content .about div div form textarea {
+    width: 700px !important; } }
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .contacts .content .about {
+    height: auto; }
+    .contacts .content .about div {
+      flex-direction: column-reverse !important; }
+      .contacts .content .about div div {
+        flex-direction: column !important; }
+        .contacts .content .about div div form div {
+          flex-direction: row !important;
+          width: 700px !important;
+          flex-wrap: wrap;
+          margin: 0 auto; }
+          .contacts .content .about div div form div input {
+            width: 300px !important; }
+        .contacts .content .about div div form textarea {
+          width: 700px !important;
+          margin: 0 auto; } }
+
+@media (min-width: 540px) and (max-width: 768px) {
+  .contacts .content .head #anchor {
+    width: auto !important; }
+  .contacts .content .about {
+    height: auto; }
+    .contacts .content .about div {
+      flex-direction: column-reverse !important; }
+      .contacts .content .about div div {
+        flex-direction: column !important; }
+        .contacts .content .about div div form div {
+          width: 530px !important;
+          flex-wrap: wrap;
+          margin: 0 auto; }
+          .contacts .content .about div div form div input {
+            width: 450px !important; }
+        .contacts .content .about div div form textarea {
+          width: 530px !important;
+          margin: 0 auto; } }
+
+@media (max-width: 540px) {
+  .contacts .content .head #anchor {
+    width: auto !important;
+    top: 20% !important; }
+    .contacts .content .head #anchor h1 {
+      font-size: 50px !important; }
+  .contacts .content .background {
+    background-attachment: scroll !important; }
+  .contacts .content .about {
+    height: auto; }
+    .contacts .content .about div {
+      flex-direction: column-reverse !important; }
+      .contacts .content .about div div {
+        flex-direction: column !important; }
+        .contacts .content .about div div form div {
+          width: 300px !important;
+          flex-wrap: wrap;
+          margin: 0 auto; }
+          .contacts .content .about div div form div input {
+            box-sizing: border-box;
+            width: 300px !important; }
+        .contacts .content .about div div form textarea {
+          width: 300px !important;
+          margin: 0 auto; }
+        .contacts .content .about div div form input {
+          width: 300px !important; } }
 
 .header-site {
   height: 86px;

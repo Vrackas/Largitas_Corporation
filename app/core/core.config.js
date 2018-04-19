@@ -89,6 +89,18 @@
                 controller: 'OtherSolutionsController',
                 controllerAs: 'vm',
             })
+            .state('contacts', {
+                url: '/contacts',
+                templateUrl: 'templates/contacts/contacts.html',
+                controller: 'ContactsController',
+                controllerAs: 'vm',
+            })
+            .state('about_us', {
+                url: '/about_us',
+                templateUrl: 'templates/about_us/about_us.html',
+                controller: 'AboutUsController',
+                controllerAs: 'vm',
+            })
 
 
 

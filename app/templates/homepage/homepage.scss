@@ -140,12 +140,12 @@
           div {
             height: 100%;
             width: 100%;
-            //background: rgba(0, 0, 0, 0.5);
+            background: rgba(0, 0, 0, 0.5);
           }
         }
         & .first-section {
           background: {
-            color: #ff3750;
+            image: url("../img/trader_room.jpg");
             size: cover !important;
             repeat: no-repeat;
             attachment: fixed;
@@ -154,7 +154,7 @@
         }
         & .second-section {
           background: {
-            color: #003e88;
+            image: url("../img/crm.jpg");
             size: cover !important;
             repeat: no-repeat;
             attachment: fixed;
@@ -163,7 +163,7 @@
         }
         & .third-section {
           background: {
-            color: #37ff57;
+            image: url("../img/ibs.jpg");
             size: cover !important;
             repeat: no-repeat;
             attachment: fixed;
@@ -173,7 +173,7 @@
         }
         & .fourth-section {
           background: {
-            color: #ff3750;
+            image: url("../img/pamm.jpg");
             size: cover !important;
             repeat: no-repeat;
             attachment: fixed;
@@ -190,43 +190,44 @@
           }
         }& .sixth-section {
           background: {
-            color: #ffb637;
+            image: url("../img/merchant.jpg");
             size: cover;
             repeat: no-repeat;
             attachment: fixed;
           }
         }& .seventh-section {
           background: {
-            color: #373fff;
+            image: url("../img/mt4.jpg");
             size: cover;
             repeat: no-repeat;
             attachment: fixed;
           }
         }& .eighth-section {
           background: {
-            color: #3ee941;
+            image: url("../img/web.jpg");
             size: cover;
             repeat: no-repeat;
             attachment: fixed;
           }
         }& .ninth-section {
           background: {
-            color: #ff3750;
+            image: url("../img/bitcoin.jpg");
             size: cover;
             repeat: no-repeat;
             attachment: fixed;
           }
         }& .tenth-section {
           background: {
-            color: #ffb637;
+            image: url("../img/webinars.jpg");
             size: cover;
             repeat: no-repeat;
             attachment: fixed;
+            position: center;
           }
         }
         & .eleventh-section {
           background: {
-            color: #373fff;
+            image: url("../img/solutions.jpg");
             size: cover;
             repeat: no-repeat;
             attachment: fixed;
@@ -257,7 +258,7 @@
               margin: auto;
               right: 0;
               text-align: center;
-              top: -20%;
+              top: 10%;
               width: 100%;
               position: fixed;
               z-index: 9999;
