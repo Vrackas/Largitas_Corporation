@@ -20,7 +20,7 @@
     background: transparent; }
     .homepage header-block header .header-site-content .header-site-content-logo a div {
       margin-top: 10px;
-      background-image: url("/content/img/logo_white.png"); }
+      background-image: url("../img/logo_white.png"); }
     .homepage header-block header .header-site-content .header-site-content-media-menu button svg {
       color: white !important; }
     .homepage header-block header .header-site-content .header-site-content-menu ul li a {
@@ -29,7 +29,7 @@
     height: 100vh;
     overflow: hidden;
     position: relative;
-    background-image: url("../../content/img/homepage_main.jpg");
+    background-image: url("../img/homepage_main.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; }
@@ -352,7 +352,7 @@
     padding-top: 270px; }
 
 .trader_room .content .background {
-  background-image: url("../../content/img/about_us.jpg");
+  background-image: url("../img/about_us.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; }
@@ -440,7 +440,7 @@
     padding-top: 270px; }
 
 .crm_system .content .background {
-  background-image: url("../../content/img/about_us.jpg");
+  background-image: url("../img/about_us.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; }
@@ -528,7 +528,7 @@
     padding-top: 270px; }
 
 .multi_ibs .content .background {
-  background-image: url("../../content/img/about_us.jpg");
+  background-image: url("../img/about_us.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; }
@@ -615,7 +615,7 @@
     padding-top: 270px; }
 
 .pamm_support .content .background {
-  background-image: url("../../content/img/about_us.jpg");
+  background-image: url("../img/about_us.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; }
@@ -702,7 +702,7 @@
     padding-top: 270px; }
 
 .merchant_accounts .content .background {
-  background-image: url("../../content/img/about_us.jpg");
+  background-image: url("../img/about_us.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; }
@@ -790,7 +790,7 @@
     padding-top: 270px; }
 
 .mt4_mac .content .background {
-  background-image: url("../../content/img/about_us.jpg");
+  background-image: url("../img/about_us.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; }
@@ -878,7 +878,7 @@
     padding-top: 270px; }
 
 .forex_web .content .background {
-  background-image: url("../../content/img/about_us.jpg");
+  background-image: url("../img/about_us.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; }
@@ -966,7 +966,7 @@
     padding-top: 270px; }
 
 .bitcoin .content .background {
-  background-image: url("../../content/img/about_us.jpg");
+  background-image: url("../img/about_us.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; }
@@ -1053,7 +1053,7 @@
     padding-top: 270px; }
 
 .live_webinars .content .background {
-  background-image: url("../../content/img/about_us.jpg");
+  background-image: url("../img/about_us.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; }
@@ -1141,7 +1141,7 @@
     padding-top: 150px; }
 
 .other_solutions .content .background {
-  background-image: url("../../content/img/psp.jpg");
+  background-image: url("../img/psp.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; }
@@ -1269,7 +1269,7 @@
       margin-left: 10px; }
       .header-site .header-site-content .header-site-content-logo a div {
         float: left;
-        background-image: url("../../content/img/logo_black.png");
+        background-image: url("../img/logo_black.png");
         background-size: cover;
         height: 90px;
         width: 250px; }

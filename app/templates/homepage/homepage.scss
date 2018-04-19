@@ -35,7 +35,7 @@
             div{
               margin-top: 10px;
               background: {
-                image: url("/content/img/logo_white.png");
+                image: url("../img/logo_white.png");
               };
             }
           }
@@ -67,7 +67,7 @@
         overflow: hidden;
         position: relative;
         background: {
-          image: url("../../content/img/homepage_main.jpg");
+          image: url("../img/homepage_main.jpg");
           size: cover;
           repeat: no-repeat;
           position: center;
