@@ -1626,8 +1626,8 @@
   background: #303030;
   box-sizing: border-box;
   color: #e5ddd9;
-  padding-bottom: 1.11111rem;
-  padding-top: 3.33333rem;
+  padding-bottom: 1rem;
+  padding-top: 1.5rem;
   text-align: left;
   width: 100%; }
   .footer-site .footer-site-logo {
@@ -1694,8 +1694,7 @@
   .footer-site .footer-site-license {
     width: 100%;
     display: flex;
-    justify-content: center;
-    margin-bottom: 40px; }
+    justify-content: center; }
     .footer-site .footer-site-license div {
       display: flex;
       width: 600px;
@@ -1752,8 +1751,7 @@
     text-align: center;
     font-size: 12px;
     font-family: 'Relative Medium', Arial, sans-serif;
-    color: rgba(232, 230, 229, 0.5);
-    margin-bottom: 40px; }
+    color: rgba(232, 230, 229, 0.5); }
 
 @media (max-width: 540px) {
   footer {
